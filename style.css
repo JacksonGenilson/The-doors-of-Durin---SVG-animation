@@ -3,6 +3,7 @@ body {
 	display: flex;
 	height: 100vh;
 	justify-content: center;
+	background-color: #000;
 }
 
 .box {
@@ -20,6 +21,10 @@ path{
 	transform: translate(-367.37988px, 174.76418px); 
 	stroke-dasharray: 10000; 
 	stroke-dashoffset: 10000;
+	filter: url(#glow);
+	fill: #000; 
+	stroke: #a2fcff; 
+	stroke-width: 1;
 }
 
 @keyframes dash {
